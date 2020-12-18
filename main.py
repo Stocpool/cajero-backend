@@ -8,12 +8,12 @@ import datetime
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+
 api = FastAPI()
 
 origins = [
     "http://localhost.tiangolo.com", "https://localhost.tiangolo.com",
-    "http://localhost", "http://localhost:8080",
-    "https://cajero-app16.herokuapp.com"
+    "http://localhost", "http://localhost:8080"
 ]
 
 api.add_middleware(
