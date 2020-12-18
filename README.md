@@ -16,6 +16,10 @@ pip install pydantic
 node --version
 npm --version
 
+• Para probar el api en Postman
+• (En backend)
+uvicorn main:api --reload
+
 • Para poder crear proyectos en Vue
 npm install –g @vue/cli
 vue --version
